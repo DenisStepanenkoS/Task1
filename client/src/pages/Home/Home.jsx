@@ -8,7 +8,7 @@ import Footer from '../../components/Footer/Footer';
 import styles from './Home.module.sass';
 import carouselConstants from '../../carouselConstants';
 import Spinner from '../../components/Spinner/Spinner';
-
+import ManagedContests from '../../components/ManagedContests/ManagedContests';
 const Home = props => {
   const [index, setIndex] = useState(0);
   const [styleName, setStyle] = useState(styles.headline__static);
@@ -55,6 +55,12 @@ const Home = props => {
                 </Link>
               </div>
             </div>
+
+            <div className={styles.greyContainer}>
+              <ManagedContests/>
+            </div>
+
+
             <div className={styles.greyContainer}>
               <SlideBar
                 images={carouselConstants.mainSliderImages}
