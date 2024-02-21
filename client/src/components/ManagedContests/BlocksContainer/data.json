@@ -1,0 +1,34 @@
+[
+  {
+    "icon": "FaUserShield",
+    "text": "Work one-on-one with a Squadhelp branding consultant.",
+    "header": "Consultant Led",
+    "iconStyles": {
+      "color": "orange"
+    }
+  },
+  {
+    "icon": "MdGroups",
+    "text": "Work with our top rated Creatives and receive a huge breadth of ideas.",
+    "header": "Crowd Powered",
+    "iconStyles": {
+      "color": "blue"
+    }
+  },
+  {
+    "icon": "FaChartPie",
+    "text": "Comprehensive trademark screening on your shortlisted names.",
+    "header": "Trademark Reports",
+    "iconStyles": {
+      "color": "purple"
+    }
+  },
+  {
+    "icon": "MdOutlineSocialDistance",
+    "text": "Get rapid feedback from real people on your shortlist of business names.",
+    "header": "Audience Testing",
+    "iconStyles": {
+      "color": "green"
+    }
+  }
+]

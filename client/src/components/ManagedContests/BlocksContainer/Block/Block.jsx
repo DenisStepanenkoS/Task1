@@ -6,6 +6,7 @@ import { lighten } from 'polished';
 function Block ({ icon, header, text, iconStyles, ...props }) {
   const { color } = iconStyles;
   const lighterColor = lighten(0.2, color);
+
   return (
     <div {...props}>
       <svg width='0' height='0'>
