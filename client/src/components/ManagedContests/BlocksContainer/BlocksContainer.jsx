@@ -23,9 +23,11 @@ function BlocksContainer () {
   }
 
   return (
-    <div className={styles.marketResearAndCompeti}>
-      {data.map(element => mapDataToComponent(element))}
-    </div>
+    <ul className={styles.marketResearAndCompeti}>
+      {data.map((element, index) => (
+        <li className={styles.marketResearAndCompetiLi} key={index}>{mapDataToComponent(element)}</li>
+      ))}
+    </ul>
   );
 }
 
